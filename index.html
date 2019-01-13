@@ -1,82 +1,98 @@
 <!--
-
-
+    Name: Fernando Becerra
+    Assignment #1 
+    1/13/2019
+    Assignment 1 consist of creating a Home page template using HTML
 -->
 
 <!DOCTYPE html>
 <html lang="en-us">
 
+
+<!--Head-->
 <head>
     <meta charset="utf-8" />
     <title>Assignment # 1</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 </head>
 
-<body style="margin: 20px;">
-    <!-- Header -->
-    <header>
+<!--Body-->
+<body>
 
+    <!--Header-->
+    <nav>
+        <div class="nav-wrapper green darken-1">
 
-        <!-- Navigation -->
-        <nav class="navbar navbar-light">
-            <a class="navbar-brand" href="#">
-                <img src="logoElim.png" alt="logoELim" height="100" width="100" />
-                <h1>Elim Ministries</h1>
+            <a href="#" class="brand-logo">
+                <img src="logoElim.png" alt="logoELim" width="65" height="65" />
+
             </a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="sass.html">Mission</a></li>
+                <li><a href="badges.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
 
-
-            <ol class="navbar-nav">
-                <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Tribe</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
-            </ol>
-        </nav>
-    </header>
-
-
-    <!-- Content -->
-
-    <section class="row">
-
-        <article class="card col-md-6">
-            <h2>Lorem Ipsum</h2>
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate
-                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                mollit anim id est laborum.</p>
-        </article>
-
-        <aside class="card col-md-6">
-            <h3 class="panel-header"> Who we are </h3>
-            <img src="logoElim.png" alt="logoELim" height="100" width="100">
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
-                rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-                explicabo.
-                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit</p>
-        </aside>
+    <!--Section-->
+    <section>
+        <div class="row">
+            <div class="col s12 m6">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="logoElim.png" alt="Logo ELim" width="5%" height="5%">
+                    </div>
+                    <div class="card-content">
+                        <p>Lorem ipsum dolor sit amet, sed ad debet docendi, vis at autem forensibus. Quo id elit
+                            prompta euismod, no ius dolor euripidis dissentiunt.
+                            Iriure expetenda ullamcorper cu sed. Etiam libris atomorum an vis, possit everti senserit
+                            ne vis, id semper impetus vim.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="SDmap.jpg" alt="Sd Map" width="5%" height="5%">
+                        <span class="card-title">Elim Ministries</span>
+                    </div>
+                    <div class="card-content">
+                        <p>ISit nulla tibique detraxit ex, vix ei cibo aliquam ponderum. Ei eam nisl dicta
+                            concludaturque.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </section>
+    
+    <!--Footer-->
+    <footer class="page-footer green darken-1 ">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Elim Ministries</h5>
+                    <p class="grey-text text-lighten-4">Ea cetero postulant temporibus eos. Corpora deserunt pro
+                        ad, cu vis amet vero essent, quo magna possit scripta id.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Contact Us</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Frequently Asked Questions</a></li>
 
-    <!-- Footer -->
-    <footer >
-        <nav class="row">
-            <ul class="breadcrumb col-md-6" style="background-color:white;">
-                <li class="breadcrumb-item"><a href="#">Contact Us</a></li>
-                <li class="breadcrumb-item"><a href="#">Frequently Asked Questions</a></li>
-                <li class="breadcrumb-item"><a href="#">Map</a></li>
-              
-            </ul>
-            <h6 class="breadcrumb-item col-md-6">CopyRight. ()</h6>
-        </nav>
-
-
-
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2019 Copyright Text
+                <a class="grey-text text-lighten-4 right" href="#!">Other Resources</a>
+            </div>
+        </div>
     </footer>
 </body>
-
 
 </html>
